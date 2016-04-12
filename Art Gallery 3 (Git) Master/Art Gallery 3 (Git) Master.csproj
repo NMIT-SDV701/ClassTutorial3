@@ -7,7 +7,7 @@
     <ProjectGuid>{6278A118-2037-42B7-8014-E9909ED38BEA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Art_Gallery_3__Git__Master</RootNamespace>
+    <RootNamespace>Version_3_C</RootNamespace>
     <AssemblyName>Art Gallery 3 %28Git%29 Master</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -128,6 +128,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
