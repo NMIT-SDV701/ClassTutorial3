@@ -110,9 +110,8 @@ namespace Version_3_C
                 MessageBox.Show(ex.Message, "File retrieve error");
             }
             UpdateDisplay();
-            GalleryNameChanged += new Notify(updateTitle);
+            GalleryNameChanged += updateTitle;
             GalleryNameChanged(_ArtistList.GalleryName);
-            //updateTitle(_ArtistList.GalleryName);
         }
 
         private void btnGalName_Click(object sender, EventArgs e)
