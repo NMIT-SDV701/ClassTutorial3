@@ -17,9 +17,9 @@ namespace Version_3_C
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            clsPainting.LoadPaintingForm = new clsPainting.LoadPaintingFormDelegate(frmPainting.Run);
-            clsPhotograph.LoadPhotographForm = new clsPhotograph.LoadPhotographFormDelegate(frmPhotograph.Run);
-            clsSculpture.LoadSculptureForm = new clsSculpture.LoadSculptureFormDelegate(frmSculpture.Run);
+            clsPainting.LoadPaintingForm = frmPainting.Run;
+            clsPhotograph.LoadPhotographForm = frmPhotograph.Run;
+            clsSculpture.LoadSculptureForm = frmSculpture.Run;
             Application.Run(frmMain.Instance);
         }
     }
